@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style
+        name="marginFromStart"
+        parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">4.44</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style
+        name="marginFromTop">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.15</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style
+        name="marginFromBottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.1</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style
+        name="top_center_menuBar_dimen1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.47</item>
+    </style>
+
+    <style
+        name="top_center_menuBar_dimen2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.69</item>
+    </style>
+
+    <style
+        name="btwImageAndText"
+        parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.83</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style
+        name="dimenOfIcon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">6.67</item>
+        <item name="android:contentDescription">TODO</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+</resources>

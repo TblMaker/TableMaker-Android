@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style
+        name="top_center_menuBar_text1"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingMultiplier">1.36</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style
+        name="top_center_menuBar_text2"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingMultiplier">1.40</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style
+        name="LocalName"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style
+        name="Left"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FF6D6770</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style
+        name="Center"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FF6D6770</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style
+        name="Right"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FF6D6770</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

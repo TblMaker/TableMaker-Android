@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#68358B"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView style="@style/marginFromStart"/>
+
+        <ImageView style="@style/dimenOfIcon"
+            android:id="@+id/profile"
+            app:srcCompat="@drawable/ic_profile" />
+
+        <TextView style="@style/marginFromStart"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="68.89"
+            android:orientation="vertical">
+
+            <TextView style="@style/marginFromTop"/>
+
+            <LinearLayout style="@style/top_center_menuBar_dimen1"
+                android:orientation="vertical">
+
+                <TextView style="@style/top_center_menuBar_text1"
+                    android:id="@+id/TABLEMAKER"
+                    android:text="TABLEMAKER" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/top_center_menuBar_dimen2"
+                android:orientation="vertical">
+
+                <TextView style="@style/top_center_menuBar_text2"
+                    android:id="@+id/LocalName"
+                    android:text="역삼동" />
+            </LinearLayout>
+
+            <TextView style="@style/marginFromBottom"/>
+
+        </LinearLayout>
+
+        <TextView style="@style/marginFromStart"/>
+
+        <ImageView style="@style/dimenOfIcon"
+            android:id="@+id/search"
+            app:srcCompat="@drawable/ic_search" />
+
+        <TextView style="@style/marginFromStart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_contour"
+        android:weightSum="100">
+
+        <TextView style="@style/marginFromStart"/>
+
+        <ImageView style="@style/dimenOfIcon"
+            android:id="@+id/chair"
+            app:srcCompat="@drawable/ic_chair" />
+
+        <TextView style="@style/btwImageAndText" />
+
+        <TextView
+            android:id="@+id/left"
+            style="@style/Left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3.06"
+            android:lineSpacingMultiplier="1.35"
+            android:text="2" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="24.44"
+            android:visibility="invisible" />
+
+        <ImageView style="@style/dimenOfIcon"
+            android:id="@+id/time"
+            app:srcCompat="@drawable/ic_time" />
+
+        <TextView style="@style/btwImageAndText" />
+
+        <TextView style="@style/Center"
+            android:id="@+id/center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="13.61"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.35"
+            android:text="12:30" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="17.78"
+            android:visibility="invisible" />
+
+        <ImageView style="@style/dimenOfIcon"
+            android:id="@+id/filter"
+            app:srcCompat="@drawable/ic_filter" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.83"
+            android:visibility="invisible" />
+
+        <TextView style="@style/Right"
+            android:id="@+id/Right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9.72"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.35"
+            android:text="필터" />
+
+        <TextView style="@style/marginFromStart"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>
