@@ -1,11 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style
+        name="first_top_center_menubar"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style
+        name="second_top_center_menubar"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style
+        name="Icon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">6.67</item>
+        <item name="android:contentDescription">TODO</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style
+        name="LocalName"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style
+        name="Left"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FF6D6770</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style
+        name="Center"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FF6D6770</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style
+        name="Right"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Noto Sans Display</item>
+        <item name="android:textColor">#FF6D6770</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style
+        name="profileSecondaryText"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Apple SD Gothic Neo</item>
+        <item name="android:textColor">#FF795094</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style
+        name="dining_list_primary"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Apple SD Gothic Neo</item>
+        <item name="android:textColor">#FF2E2235</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style
+        name="dining_list_secondary"
+        parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">Apple SD Gothic Neo</item>
+        <item name="android:textColor">#FF968C9A</item>
+        <item name="android:textSize">14sp</item>
     </style>
 
 </resources>
